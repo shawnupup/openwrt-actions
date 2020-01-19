@@ -1,4 +1,4 @@
-#
+
 # Automatically generated file; DO NOT EDIT.
 # OpenWrt Configuration
 #
@@ -37,7 +37,7 @@ CONFIG_HAVE_DOT_CONFIG=y
 # CONFIG_TARGET_octeontx is not set
 # CONFIG_TARGET_oxnas is not set
 # CONFIG_TARGET_armvirt is not set
-# CONFIG_TARGET_ipq40xx is not set
+CONFIG_TARGET_ipq40xx=y
 # CONFIG_TARGET_ipq806x is not set
 # CONFIG_TARGET_au1000 is not set
 # CONFIG_TARGET_samsung is not set
@@ -47,22 +47,159 @@ CONFIG_HAVE_DOT_CONFIG=y
 # CONFIG_TARGET_omap is not set
 # CONFIG_TARGET_uml is not set
 # CONFIG_TARGET_zynq is not set
-CONFIG_TARGET_x86=y
-CONFIG_TARGET_x86_64=y
+# CONFIG_TARGET_x86 is not set
+# CONFIG_TARGET_brcm63xx_generic is not set
+# CONFIG_TARGET_brcm63xx_smp is not set
+# CONFIG_TARGET_x86_64 is not set
 # CONFIG_TARGET_x86_generic is not set
 # CONFIG_TARGET_x86_core2 is not set
 # CONFIG_TARGET_x86_zen is not set
 # CONFIG_TARGET_x86_legacy is not set
 # CONFIG_TARGET_x86_geode is not set
-CONFIG_TARGET_x86_64_Generic=y
-CONFIG_HAS_SUBTARGETS=y
-CONFIG_TARGET_BOARD="x86"
-CONFIG_TARGET_SUBTARGET="64"
-CONFIG_TARGET_PROFILE="Generic"
-CONFIG_TARGET_ARCH_PACKAGES="x86_64"
+# CONFIG_TARGET_MULTI_PROFILE is not set
+# CONFIG_TARGET_bcm53xx_Generic is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_asus-rt-ac56u is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_asus-rt-ac68u is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_asus-rt-ac87u is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_asus-rt-n18u is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_buffalo-wxr-1900dhp is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_buffalo-wzr-600dhp2 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_buffalo-wzr-900dhp is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_buffalo-wzr-1750dhp is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_dlink-dir-885l is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_linksys-ea6500-v2 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_netgear-r6250 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_netgear-r6300-v2 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_netgear-r7000 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_netgear-r7900 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_netgear-r8000 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_smartrg-sr400ac is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_phicomm-k3 is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_arris-sbr-ac1900p is not set
+# CONFIG_TARGET_bcm53xx_DEVICE_arris-sbr-ac3200p is not set
+# CONFIG_TARGET_brcm63xx_generic_Default is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_A4001N is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_A4001N1 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AV4202N is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_R1000H is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_RG100A is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_MAGIC is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AR1004G is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HomeHub2A is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BTV2110 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BTV2500V is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_F5D7633 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BCM96318REF is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BCM96318REF_P300 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BCM963268BU_P300 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_BCM963269BHR is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AR5315u is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AR5381u is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AR5387un is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CT-536_CT-5621 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CT-5365 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CT-6373 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_VR-3025u is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_VR-3025un is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_VR-3026e is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_WAP-5813n is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL2640B-B is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL2640U is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL2650U is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL274XB-C2 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL274XB-C3 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL274XB-F1 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DSL275XB-D1 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DVAG3810BN is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DV-201AMR is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_RTA1025W_16 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_RTA1320_16M is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_RTA770BW is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_RTA770W is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_963281TAN-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96328avng-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96338GW-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96338W-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96345GW2-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96348GW-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96348GW-10-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96348GW-11-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96348R-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96358VW-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96358VW2-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96368MVNgr-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_96368MVWG-generic is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG520v is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG553 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG556a-A is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG556a-B is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG556a-C is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG622 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_HG655b is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_VG50 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_livebox is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CVG834G is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DG834GTv4 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DG834GT_PN is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DGND3700v1 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_DGND3800B is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_EVG2000 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_R5010UNv2 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_VH4032N is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_A226G is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_A226M is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_A226M-FWB is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AGPF-S0 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_NEUFBOX4-FXC is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_NEUFBOX4-SER is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_NEUFBOX6 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_SR102 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_FAST2404 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_FAST2504n is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_FAST2604 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_FAST2704V2 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_FAST2704N is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_AD1018-SPI_flash is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_SPW303V is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_SPW500V is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_TD-W8900GB is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_GW6000 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_GW6200 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CPVA502PLUS is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_CPA-ZNTE60T is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_USR9108 is not set
+# CONFIG_TARGET_brcm63xx_generic_DEVICE_P870HW-51a_v2 is not set
+# CONFIG_TARGET_ipq40xx_Default is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_8dev_jalapeno is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_asus_map-ac2200 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_avm_fritzbox-4040 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_asus_rt-ac58u is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_asus_rt-acrh17 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_meraki_mr33 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_compex_wpj428 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_engenius_eap1300 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_glinet_gl-b1300 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_hugo_ac1200 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_linksys_ea6350v3 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_netgear_ex6100v2 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_netgear_ex6150v2 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_openmesh_a42 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_openmesh_a62 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_p2w_r619ac is not set
+CONFIG_TARGET_ipq40xx_DEVICE_p2w_r619ac-128m=y
+# CONFIG_TARGET_ipq40xx_DEVICE_qcom_ap-dk01.1-c1 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_qcom_ap-dk04.1-c1 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_zyxel_nbg6617 is not set
+# CONFIG_TARGET_ipq40xx_DEVICE_zyxel_wre6606 is not set
+# CONFIG_TARGET_x86_64_Generic is not set
+CONFIG_HAS_DEVICES=y
+CONFIG_TARGET_BOARD="ipq40xx"
+CONFIG_TARGET_SUBTARGET="generic"
+CONFIG_TARGET_PROFILE="DEVICE_p2w_r619ac-128m"
+CONFIG_TARGET_ARCH_PACKAGES="arm_cortex-a7_neon-vfpv4"
 CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe"
-CONFIG_CPU_TYPE=" "
-CONFIG_LINUX_4_19=y
+CONFIG_CPU_TYPE="cortex-a7+neon-vfpv4"
+CONFIG_LINUX_4_14=y
 CONFIG_DEFAULT_alsa-utils=y
 CONFIG_DEFAULT_ath10k-firmware-qca9888=y
 CONFIG_DEFAULT_ath10k-firmware-qca988x=y
